@@ -6,22 +6,31 @@
 </head>
 <body>
 
-    <h1>Login</h1>
+    <h1>Virtual Classroom Login</h1>
 
     <form>
-        <label>Email:</label>
-        <input type="email" placeholder="Enter your email">
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email" required>
         <br><br>
 
-        <label>Password:</label>
-        <input type="password" placeholder="Enter password">
+        <label>Password:</label><br>
+        <input type="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label>Login As:</label><br>
+        <select required>
+            <option value="">Select role</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+        </select>
         <br><br>
 
         <button type="submit">Login</button>
     </form>
 
     <br>
-    <a href="register.html">Create Student Account</a>
+
+    <a href="register.html">Student Registration</a>
 
 </body>
-</html> 
+</html>
